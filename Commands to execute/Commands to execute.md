@@ -41,3 +41,18 @@
 -------------------------------------------------
 
 # 2. Backed 
+
+## . Ir al backend
+> cd C:\backend-iam
+
+## . Descargar/actualizar dependencias
+> go mod tidy
+
+## . Compilar para comprobar que no haya errores
+> go build ./...
+
+## . Ejecutar el backend
+> go run ./cmd/server
+
+---------------------------------------
+
