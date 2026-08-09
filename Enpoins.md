@@ -21,7 +21,7 @@ POST /api/v1/auth/login
 ```json
 {
   "email": "admin@sena.edu.co",
-  "password": "la-contraseña-real"
+  "password": "Admin123!"
 }
 ```
 
