@@ -19,21 +19,25 @@
 
 ------------------
 
-# QA
+## QA
 > docker compose --env-file .env.qa up postgres -d
 
 >docker compose --env-file .env.qa --profile tooling run --rm liquibase-iam update
 
 --------------------
 
-# STAGING
+## STAGING
 > docker compose --env-file .env.staging up postgres -d
 
 > docker compose --env-file .env.staging --profile tooling run --rm liquibase-iam update
 
 --------------
 
-# MAIN
+## MAIN
 > docker compose --env-file .env.main up postgres -d
 
 > docker compose --env-file .env.main --profile tooling run --rm liquibase-iam update
+
+-------------------------------------------------
+
+# 2. Backed 
