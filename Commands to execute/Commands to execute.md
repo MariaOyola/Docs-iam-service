@@ -56,3 +56,14 @@
 
 ---------------------------------------
 
+# 3. Frond
+
+# Ingresa a la carpeta
+> cd frontend-iam
+
+# instala las  dependencias
+>> npm install
+
+# Corree el aplicativo
+>> npm run web
+
